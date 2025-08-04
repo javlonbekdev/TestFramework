@@ -1,0 +1,124 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TestFramework",
+    "printedName": "TestFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s13TestFramework3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "TestFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework3SDKV10doSomeWorkyyFZ",
+            "mangledName": "$s13TestFramework3SDKV10doSomeWorkyyFZ",
+            "moduleName": "TestFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13TestFramework3SDKV",
+        "mangledName": "$s13TestFramework3SDKV",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/javlonbekdev\/Documents\/iOS\/TestFramework\/TestFramework\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/javlonbekdev\/Documents\/iOS\/TestFramework\/TestFramework\/SDK.swift",
+      "kind": "Array",
+      "offset": 215,
+      "length": 31,
+      "value": "[\"privateKey123\"]"
+    }
+  ]
+}
